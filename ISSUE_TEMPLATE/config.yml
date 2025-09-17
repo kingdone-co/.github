@@ -1,0 +1,5 @@
+blank_issues_enabled: false
+contact_links:
+  - name: 💡 Pitch a New Project
+    url: https://github.com/kingdone-co/kingdone/issues/new?template=1-pitch.md
+    about: Use this template to propose a new project

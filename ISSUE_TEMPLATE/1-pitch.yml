@@ -1,0 +1,69 @@
+name: 💡 Pitch a New Project
+description: Use this template to propose a new project
+title: ""
+labels: []
+projects: []
+assignees: []
+type: "Pitch"
+body:
+  - type: markdown
+    attributes:
+      value: |
+        There is no idea dumb enough that shouldn't be listened.
+        Please fill out the form so we can discuss it.
+  - type: textarea
+    id: problem
+    attributes:
+      label: The Problem
+      description: |
+        Describe the raw idea or the problem to solve, not the solution. 
+        Why is this important? What pain does it solve?
+    validations:
+      required: true
+  - type: dropdown
+    id: appetite
+    attributes:
+      label: The Appetite
+      description: |
+        Define the max amount of time/effort the team should spend to solve it.
+        Remember: this is not how much you think it's going to take to implement the best possible
+        solution, but how much time you are willing to invest on it.
+      options:
+        - 1 week
+        - 2 weeks
+        - 3 weeks
+        - 4 weeks
+        - 5 weeks
+  - type: textarea
+    id: solution
+    attributes:
+      label: The Solution
+      description: |
+        Outline the core elements of the solution. How would it work? 
+        Describe at a high level with words, sketches, or wireframes. Focus on the 
+        “fat marker” version, not fine details.
+
+        Tip: You can attach images or files by clicking this area to highlight it and 
+        then dragging files in.
+  - type: textarea
+    id: rabbit_holes
+    attributes:
+      label: The Rabbit Holes
+      description: |
+        List potential tricky parts that could consume lots of time or introduce uncertainty. 
+        Identify what to avoid going deep into.
+  - type: textarea
+    id: rabbit_holes
+    attributes:
+      label: The Rabbit Holes
+      description: |
+        List potential tricky parts that could consume lots of time or introduce uncertainty. 
+        Identify what to avoid going deep into.
+      value: \- 
+  - type: textarea
+    id: no_gos
+    attributes:
+      label: The No-Gos
+      description: |
+        Clearly state what is explicitly excluded from this pitch, to prevent scope creep.
+      value: \-
