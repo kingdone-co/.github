@@ -1,8 +1,5 @@
 name: ✨ Feature
 description: A new idea, request, or functionality
-title: ""
-labels: []
-assignees: []
 type: "Feature"
 body:
   - type: markdown

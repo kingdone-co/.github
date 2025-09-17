@@ -1,8 +1,5 @@
 name: 🐛 Bug Report
 description: An unexpected problem or behavior
-title: ""
-labels: []
-assignees: []
 type: "Bug"
 body:
   - type: markdown

@@ -1,8 +1,5 @@
 name: 🚀 Enhancement
 description: Improvements, refactors, DevX changes, or non-critical performance boosts
-title: "[Enhancement] "
-labels: ["enhancement"]
-assignees: []
 type: "Enhancement"
 body:
   - type: markdown

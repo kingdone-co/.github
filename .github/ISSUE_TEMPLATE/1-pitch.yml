@@ -1,9 +1,5 @@
 name: 💡 Pitch
 description: Use this template to propose a new project
-title: ""
-labels: []
-projects: []
-assignees: []
 type: "Pitch"
 body:
   - type: markdown

@@ -1,8 +1,5 @@
 name: 🛠️ Task
 description: A specific piece of work, often infra, migration, or setup with little to no code involved
-title: ""
-labels: []
-assignees: []
 type: "Task"
 body:
   - type: markdown
