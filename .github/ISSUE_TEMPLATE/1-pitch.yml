@@ -1,4 +1,4 @@
-name: 💡 Pitch a New Project
+name: 💡 Pitch
 description: Use this template to propose a new project
 title: ""
 labels: []
@@ -52,18 +52,37 @@ body:
       description: |
         List potential tricky parts that could consume lots of time or introduce uncertainty. 
         Identify what to avoid going deep into.
-  - type: textarea
-    id: rabbit_holes
-    attributes:
-      label: The Rabbit Holes
-      description: |
-        List potential tricky parts that could consume lots of time or introduce uncertainty. 
-        Identify what to avoid going deep into.
-      value: \- 
+      value: "- "
   - type: textarea
     id: no_gos
     attributes:
       label: The No-Gos
       description: |
         Clearly state what is explicitly excluded from this pitch, to prevent scope creep.
-      value: \-
+      value: "- "
+  - type: textarea
+    id: delivery
+    attributes:
+      label: The Delivery
+      desciprion: |
+        We need to know how we will ship this. How much time we need for it? Is it complex? Does it require data
+        migrations? Will we do partial rollout?
+  - type: textarea
+    id: validations
+    attributes:
+      label: The Validation
+      description: |
+        Describe here how we could validate the solution actually solved the problem.
+        This includes the actual observability, not just a quick "how to test" for the stakeholders,
+        but which metrics should we keep track of later, after the project is delivered.
+  - type: textarea
+    id: to_dos
+    attributes:
+      label: The To-Dos
+      description: |
+        A broken-down list of tasks we need to execute to implement the solution.
+        Start with an abstract checklist, so later we can convert the checklist item into sub-issues of
+        this pitch, open a project for it and plan its execution.
+      value: |
+        - [ ] Kickoff the project
+        - [ ] 

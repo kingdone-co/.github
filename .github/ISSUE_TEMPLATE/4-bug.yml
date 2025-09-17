@@ -1,0 +1,55 @@
+name: 🐛 Bug Report
+description: An unexpected problem or behavior
+title: ""
+labels: []
+assignees: []
+type: "Bug"
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Please describe the problem clearly so it can be reproduced and fixed.
+  - type: textarea
+    id: summary
+    attributes:
+      label: Summary
+      description: What’s happening that shouldn’t?
+    validations:
+      required: true
+  - type: textarea
+    id: steps
+    attributes:
+      label: Steps to Reproduce
+      description: What are the exact steps needed to trigger the bug?
+      placeholder: |
+        1. Go to …
+        2. Click …
+        3. See error
+      value: "1. "
+    validations:
+      required: true
+  - type: textarea
+    id: expected
+    attributes:
+      label: Expected Behavior
+      description: What should happen instead?
+    validations:
+      required: true
+  - type: textarea
+    id: actual
+    attributes:
+      label: Actual Behavior
+      description: What actually happens?
+    validations:
+      required: true
+  - type: dropdown
+    id: severity
+    attributes:
+      label: Severity
+      description: How critical is this issue?
+      options:
+        - 🔴 Critical (blocks work, crashes, data loss)
+        - 🟠 Major (big impact, but workaround exists)
+        - 🟡 Minor (annoyance, cosmetic issue)
+    validations:
+      required: true

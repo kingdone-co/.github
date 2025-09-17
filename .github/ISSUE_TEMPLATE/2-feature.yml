@@ -1,0 +1,33 @@
+name: ✨ Feature
+description: A new idea, request, or functionality
+title: ""
+labels: []
+assignees: []
+type: "Feature"
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Propose a new feature to improve the product.
+  - type: textarea
+    id: motivation
+    attributes:
+      label: Motivation
+      description: Why do we need this feature? What problem does it solve?
+    validations:
+      required: true
+  - type: textarea
+    id: proposal
+    attributes:
+      label: Proposal
+      description: What’s the idea? Describe how it could work at a high level.
+  - type: textarea
+    id: alternatives
+    attributes:
+      label: Alternatives
+      description: What other solutions have you considered, if any?
+  - type: textarea
+    id: impact
+    attributes:
+      label: Impact
+      description: Who will benefit from this? How does it make things better?
