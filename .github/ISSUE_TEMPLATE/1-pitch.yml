@@ -1,5 +1,5 @@
 name: 💡 Pitch
-description: Use this template to propose a new project
+description: Propose a new project
 type: "Pitch"
 body:
   - type: markdown
@@ -60,7 +60,7 @@ body:
     id: delivery
     attributes:
       label: The Delivery
-      desciprion: |
+      description: |
         We need to know how we will ship this. How much time we need for it? Is it complex? Does it require data
         migrations? Will we do partial rollout?
   - type: textarea
