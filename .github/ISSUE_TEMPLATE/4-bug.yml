@@ -29,9 +29,9 @@ body:
       label: Steps to Reproduce
       description: What are the exact steps needed to trigger the bug?
       value: |
-        1. Go to …
+        _1. Go to …
         2. Click …
-        3. See error
+        3. See error_
   - type: textarea
     id: actual
     attributes:
