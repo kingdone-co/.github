@@ -6,6 +6,17 @@ body:
     attributes:
       value: |
         Please describe the problem clearly so it can be reproduced and fixed.
+  - type: dropdown
+    id: severity
+    attributes:
+      label: Severity
+      description: How critical is this issue?
+      options:
+        - 🔴 Critical (blocks work, crashes, data loss)
+        - 🟠 Major (big impact, but workaround exists)
+        - 🟡 Minor (annoyance, cosmetic issue)
+    validations:
+      required: true
   - type: textarea
     id: summary
     attributes:
@@ -26,23 +37,8 @@ body:
     attributes:
       label: Expected Behavior
       description: What should happen instead?
-    validations:
-      required: true
   - type: textarea
     id: actual
     attributes:
       label: Actual Behavior
       description: What actually happens?
-    validations:
-      required: true
-  - type: dropdown
-    id: severity
-    attributes:
-      label: Severity
-      description: How critical is this issue?
-      options:
-        - 🔴 Critical (blocks work, crashes, data loss)
-        - 🟠 Major (big impact, but workaround exists)
-        - 🟡 Minor (annoyance, cosmetic issue)
-    validations:
-      required: true
