@@ -21,26 +21,22 @@ body:
     id: summary
     attributes:
       label: Summary
-      description: What’s happening that shouldn’t?
-      value: _A generic description of the error, so we can understand what you mean_
+      value: _What’s happening that shouldn’t?_
   - type: textarea
     id: steps
     attributes:
       label: Steps to Reproduce
-      description: What are the exact steps needed to trigger the bug?
       value: |
-        _1. Go to …
-        2. Click …
-        3. See error_
+        _What are the exact steps needed to trigger the bug?_
+
+        1. 
   - type: textarea
     id: actual
     attributes:
       label: Actual Behavior
-      description: What actually happens?
-      value: _A description of what happens after the steps are executed_
+      value: _What actually happens?_
   - type: textarea
     id: expected
     attributes:
       label: Expected Behavior
-      description: What should happen instead?
-      value: _A description of what were you expecting to happen instead_
+      value: _What should happen instead?d_
