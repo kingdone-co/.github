@@ -10,19 +10,19 @@ body:
     id: summary
     attributes:
       label: Summary
-      description: What’s the improvement you’re suggesting?
+      value: _What’s the improvement you’re suggesting?_
   - type: textarea
     id: rationale
     attributes:
       label: Rationale
-      description: Why is this improvement worth doing? What pain does it reduce?
+      value: _Why is this improvement worth doing? What pain does it reduce?_
   - type: textarea
     id: approach
     attributes:
       label: Approach
-      description: How could this be achieved technically?
+      value: _How could this be achieved technically?_
   - type: textarea
     id: scope
     attributes:
       label: Scope / Impact
-      description: Does this affect users, developers, performance, or maintainability?
+      value: _Does this affect users, developers, performance, or maintainability?_
