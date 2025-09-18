@@ -4,25 +4,24 @@ type: "Feature"
 body:
   - type: markdown
     attributes:
-      value: |
-        Propose a new feature to improve the product.
+      value: Propose a new feature to improve the product.
   - type: textarea
     id: motivation
     attributes:
       label: Motivation
-      description: Why do we need this feature? What problem does it solve?
+      value: _Why do we need this feature? What problem does it solve?_
   - type: textarea
     id: proposal
     attributes:
       label: Proposal
-      description: What’s the idea? Describe how it could work at a high level.
+      value: _What’s the idea? Describe how it could work at a high level._
   - type: textarea
     id: alternatives
     attributes:
       label: Alternatives
-      description: What other solutions have you considered, if any?
+      value: _What other solutions have you considered, if any?_
   - type: textarea
     id: impact
     attributes:
       label: Impact
-      description: Who will benefit from this? How does it make things better?
+      value: _Who will benefit from this? How does it make things better?_
