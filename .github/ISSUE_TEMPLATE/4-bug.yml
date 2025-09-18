@@ -22,13 +22,13 @@ body:
     attributes:
       label: Summary
       description: What’s happening that shouldn’t?
-      placeholder: _A generic description of the error, so we can understand what you mean_
+      value: _A generic description of the error, so we can understand what you mean_
   - type: textarea
     id: steps
     attributes:
       label: Steps to Reproduce
       description: What are the exact steps needed to trigger the bug?
-      placeholder: |
+      value: |
         1. Go to …
         2. Click …
         3. See error
@@ -37,10 +37,10 @@ body:
     attributes:
       label: Actual Behavior
       description: What actually happens?
-      placeholder: _Describe what you are experiencing as the end result of the steps_
+      value: _A description of what happens after the steps are executed_
   - type: textarea
     id: expected
     attributes:
       label: Expected Behavior
       description: What should happen instead?
-      placeholder: _Describe what you were expecting to happen_
+      value: _A description of what were you expecting to happen instead_
