@@ -11,8 +11,6 @@ body:
     attributes:
       label: Summary
       description: What’s happening that shouldn’t?
-    validations:
-      required: true
   - type: textarea
     id: steps
     attributes:
@@ -23,8 +21,6 @@ body:
         2. Click …
         3. See error
       value: "1. "
-    validations:
-      required: true
   - type: textarea
     id: expected
     attributes:
