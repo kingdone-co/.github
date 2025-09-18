@@ -39,9 +39,6 @@ body:
         _Outline the core elements of the solution. How would it work? 
         Describe at a high level with words, sketches, or wireframes. Focus on the 
         “fat marker” version, not fine details._
-
-        _Tip: You can attach images or files by clicking this area to highlight it and 
-        then dragging files in._
   - type: textarea
     id: rabbit_holes
     attributes:
