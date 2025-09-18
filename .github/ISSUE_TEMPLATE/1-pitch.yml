@@ -5,8 +5,7 @@ body:
   - type: markdown
     attributes:
       value: |
-        There is no idea dumb enough that shouldn't be listened.
-        Please fill out the form so we can discuss it.
+        There is no idea dumb enough to not be listened. Please fill out the form so we can discuss it.
   - type: textarea
     id: problem
     attributes:
@@ -20,7 +19,7 @@ body:
     id: appetite
     attributes:
       label: The Appetite
-      value: |
+      description: |
         _Define the max amount of time/effort the team should spend to solve it.
         Remember: this is not how much you think it's going to take to implement the best possible
         solution, but how much time you are willing to invest on it._
@@ -30,6 +29,8 @@ body:
         - 3 weeks
         - 4 weeks
         - 5 weeks
+    validations:
+      required: true
   - type: textarea
     id: solution
     attributes:
