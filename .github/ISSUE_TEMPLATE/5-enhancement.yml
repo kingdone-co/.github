@@ -11,8 +11,6 @@ body:
     attributes:
       label: Summary
       description: What’s the improvement you’re suggesting?
-    validations:
-      required: true
   - type: textarea
     id: rationale
     attributes:
