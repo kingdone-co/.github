@@ -22,6 +22,7 @@ body:
     attributes:
       label: Summary
       description: What’s happening that shouldn’t?
+      placeholder: _A generic description of the error, so we can understand what you mean_
   - type: textarea
     id: steps
     attributes:
@@ -31,14 +32,15 @@ body:
         1. Go to …
         2. Click …
         3. See error
-      value: "1. "
-  - type: textarea
-    id: expected
-    attributes:
-      label: Expected Behavior
-      description: What should happen instead?
   - type: textarea
     id: actual
     attributes:
       label: Actual Behavior
       description: What actually happens?
+      placeholder: _Describe what you are experiencing as the end result of the steps_
+  - type: textarea
+    id: expected
+    attributes:
+      label: Expected Behavior
+      description: What should happen instead?
+      placeholder: _Describe what you were expecting to happen_
