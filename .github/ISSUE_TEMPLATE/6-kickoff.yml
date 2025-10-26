@@ -3,7 +3,7 @@ description: Pre-flight checklist for starting a new project or feature initiati
 title: 🚀 Project Kickoff Checklist
 type: "Task"
 body:
-    - type: markdown
+  - type: markdown
     attributes:
       value: |
         # 🚀 Project Kickoff — Pre-Flight Checklist
