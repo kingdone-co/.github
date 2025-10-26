@@ -45,20 +45,20 @@ body:
       label: ✅ Pre-Flight Checklist
       description: Review each topic before proceeding to implementation.
       options:
-        - label: **Feature flag plan** - Will this ship behind a flag or toggle?
-        - label: **Observability** - Logging, metrics, tracing defined?
-        - label: **Testing** - Unit, integration, end-to-end test strategy decided?
-        - label: **Rollout strategy** - Phased release, canary, or big-bang?
-        - label: **Data migrations** - Any schema changes required? How will rollback work?
-        - label: **Dependencies** - Any services, APIs, or teams to coordinate with?
-        - label: **Security & permissions** - Are secrets, tokens, and access scopes reviewed?
-        - label: **Documentation** - Does this need new or updated docs?
-        - label: **Performance considerations** - Any known hotspots or load risks?
-        - label: **Failure scenarios** - What happens if this goes wrong? Is there an alert or fallback?
-        - label: **Tech debt** - Any refactors or cleanup bundled into this effort?
-        - label: **UX/UI review** - Mockups, flows, or acceptance criteria validated?
-        - label: **Localization / Accessibility** - Any requirements to cover?
-        - label: **Compliance / Legal** - GDPR, data retention, or license implications?
+        - label: 1. **Feature flag plan** - Will this ship behind a flag or toggle?
+        - label: 2. **Observability** - Logging, metrics, tracing defined?
+        - label: 3. **Testing** - Unit, integration, end-to-end test strategy decided?
+        - label: 4. **Rollout strategy** - Phased release, canary, or big-bang?
+        - label: 5. **Data migrations** - Any schema changes required? How will rollback work?
+        - label: 6. **Dependencies** - Any services, APIs, or teams to coordinate with?
+        - label: 7. **Security & permissions** - Are secrets, tokens, and access scopes reviewed?
+        - label: 8. **Documentation** - Does this need new or updated docs?
+        - label: 9. **Performance considerations** - Any known hotspots or load risks?
+        - label: 10. **Failure scenarios** - What happens if this goes wrong? Is there an alert or fallback?
+        - label: 11. **Tech debt** - Any refactors or cleanup bundled into this effort?
+        - label: 12. **UX/UI review** - Mockups, flows, or acceptance criteria validated?
+        - label: 13. **Localization / Accessibility** - Any requirements to cover?
+        - label: 14. **Compliance / Legal** - GDPR, data retention, or license implications?
 
   - type: textarea
     id: rabbit-holes
