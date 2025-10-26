@@ -8,36 +8,13 @@ body:
       value: |
         # 🚀 Project Kickoff — Pre-Flight Checklist
 
-        Before writing the first line of code, let’s make sure all systems are go.  
-        This checklist is meant to guide you through the *thinking phase* of the project — ensuring you have clarity on the problem, scope, architecture, risks, and rollout strategy.
+        Before writing the first line of code, let’s make sure all systems are good.  
+        
+        This checklist is meant to guide devs through the *thinking phase* of the project — 
+        ensuring they have clarity on the problem, scope, architecture, risks, and rollout strategy.
 
-  - type: textarea
-    id: problem
-    attributes:
-      label: 🧩 The Problem
-      description: What pain or opportunity are we addressing? Why now?
-      placeholder: Describe the problem in simple terms — not the solution.
-
-  - type: textarea
-    id: appetite
-    attributes:
-      label: ⏱ Appetite
-      description: How much time or effort are we willing to invest?
-      placeholder: e.g., 1 week, 2 cycles, 3 days of dev time.
-
-  - type: textarea
-    id: scope
-    attributes:
-      label: 📦 Scope (and Out of Scope)
-      description: Define what this project *will* and *will not* include.
-      placeholder: List the core deliverables, and what’s explicitly excluded.
-
-  - type: textarea
-    id: approach
-    attributes:
-      label: 🧠 Proposed Solution / Approach
-      description: Describe your high-level approach or architecture. No need for fine details yet.
-      placeholder: Outline how this will work, or attach a diagram/sketch.
+        After reading the project pitch, go through this checklist and make sure there are tasks
+        created in the project for handling each of these.
 
   - type: checkboxes
     id: preflight-checklist
@@ -49,7 +26,7 @@ body:
         - label: 2. **Observability** - Logging, metrics, tracing defined?
         - label: 3. **Testing** - Unit, integration, end-to-end test strategy decided?
         - label: 4. **Rollout strategy** - Phased release, canary, or big-bang?
-        - label: 5. **Data migrations** - Any schema changes required? How will rollback work?
+        - label: 5. **Data migrations** - Any schema changes required? How will rollback in case necessary?
         - label: 6. **Dependencies** - Any services, APIs, or teams to coordinate with?
         - label: 7. **Security & permissions** - Are secrets, tokens, and access scopes reviewed?
         - label: 8. **Documentation** - Does this need new or updated docs?
@@ -59,42 +36,5 @@ body:
         - label: 12. **UX/UI review** - Mockups, flows, or acceptance criteria validated?
         - label: 13. **Localization / Accessibility** - Any requirements to cover?
         - label: 14. **Compliance / Legal** - GDPR, data retention, or license implications?
-
-  - type: textarea
-    id: rabbit-holes
-    attributes:
-      label: 🕳️ Potential Rabbit Holes
-      description: List areas that could consume lots of time or uncertainty — to keep scope realistic.
-
-  - type: textarea
-    id: nogos
-    attributes:
-      label: 🚫 No-Gos
-      description: What is *explicitly excluded* from this project to prevent scope creep?
-
-  - type: textarea
-    id: validation
-    attributes:
-      label: 🧪 Validation Plan
-      description: How will we know this worked? Define your success metrics or validation criteria.
-      placeholder: Define metrics, feedback loops, or signals that confirm success.
-
-  - type: textarea
-    id: rollout
-    attributes:
-      label: 🚢 Delivery & Rollout Plan
-      description: How will this be shipped? Mention staging environments, partial rollouts, etc.
-      placeholder: Include steps like feature flag rollout, migrations, or docs update.
-
-  - type: textarea
-    id: followup
-    attributes:
-      label: 🔭 Post-Launch Follow-Up
-      description: Anything to monitor or revisit after release? Future improvements?
-
-  - type: markdown
-    attributes:
-      value: |
-        ---
-        🏁 **When everything above is checked off, you’re cleared for takeoff.**
-        > Remember: the goal of this checklist is to prevent surprises mid-flight.
+        - label: 15. **Validation** - Anything to make the validation possible/easier?
+        - label: 16. **Follow-up** - Anything post delivery needed from devs? Monitoring, things to revisit, future improvements?
