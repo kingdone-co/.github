@@ -1,0 +1,100 @@
+name: 🚀 Kickoff
+description: Pre-flight checklist for starting a new project or feature initiative.
+title: 🚀 Project Kickoff Checklist
+type: "Task"
+body:
+    - type: markdown
+    attributes:
+      value: |
+        # 🚀 Project Kickoff — Pre-Flight Checklist
+
+        Before writing the first line of code, let’s make sure all systems are go.  
+        This checklist is meant to guide you through the *thinking phase* of the project — ensuring you have clarity on the problem, scope, architecture, risks, and rollout strategy.
+
+  - type: textarea
+    id: problem
+    attributes:
+      label: 🧩 The Problem
+      description: What pain or opportunity are we addressing? Why now?
+      placeholder: Describe the problem in simple terms — not the solution.
+
+  - type: textarea
+    id: appetite
+    attributes:
+      label: ⏱ Appetite
+      description: How much time or effort are we willing to invest?
+      placeholder: e.g., 1 week, 2 cycles, 3 days of dev time.
+
+  - type: textarea
+    id: scope
+    attributes:
+      label: 📦 Scope (and Out of Scope)
+      description: Define what this project *will* and *will not* include.
+      placeholder: List the core deliverables, and what’s explicitly excluded.
+
+  - type: textarea
+    id: approach
+    attributes:
+      label: 🧠 Proposed Solution / Approach
+      description: Describe your high-level approach or architecture. No need for fine details yet.
+      placeholder: Outline how this will work, or attach a diagram/sketch.
+
+  - type: checkboxes
+    id: preflight-checklist
+    attributes:
+      label: ✅ Pre-Flight Checklist
+      description: Review each topic before proceeding to implementation.
+      options:
+        - label: **Feature flag plan** — Will this ship behind a flag or toggle?
+        - label: **Observability** — Logging, metrics, tracing defined?
+        - label: **Testing** — Unit, integration, end-to-end test strategy decided?
+        - label: **Rollout strategy** — Phased release, canary, or big-bang?
+        - label: **Data migrations** — Any schema changes required? How will rollback work?
+        - label: **Dependencies** — Any services, APIs, or teams to coordinate with?
+        - label: **Security & permissions** — Are secrets, tokens, and access scopes reviewed?
+        - label: **Documentation** — Does this need new or updated docs?
+        - label: **Performance considerations** — Any known hotspots or load risks?
+        - label: **Failure scenarios** — What happens if this goes wrong? Is there an alert or fallback?
+        - label: **Tech debt** — Any refactors or cleanup bundled into this effort?
+        - label: **UX/UI review** — Mockups, flows, or acceptance criteria validated?
+        - label: **Localization / Accessibility** — Any requirements to cover?
+        - label: **Compliance / Legal** — GDPR, data retention, or license implications?
+
+  - type: textarea
+    id: rabbit-holes
+    attributes:
+      label: 🕳️ Potential Rabbit Holes
+      description: List areas that could consume lots of time or uncertainty — to keep scope realistic.
+
+  - type: textarea
+    id: nogos
+    attributes:
+      label: 🚫 No-Gos
+      description: What is *explicitly excluded* from this project to prevent scope creep?
+
+  - type: textarea
+    id: validation
+    attributes:
+      label: 🧪 Validation Plan
+      description: How will we know this worked? Define your success metrics or validation criteria.
+      placeholder: Define metrics, feedback loops, or signals that confirm success.
+
+  - type: textarea
+    id: rollout
+    attributes:
+      label: 🚢 Delivery & Rollout Plan
+      description: How will this be shipped? Mention staging environments, partial rollouts, etc.
+      placeholder: Include steps like feature flag rollout, migrations, or docs update.
+
+  - type: textarea
+    id: followup
+    attributes:
+      label: 🔭 Post-Launch Follow-Up
+      description: Anything to monitor or revisit after release? Future improvements?
+
+  - type: markdown
+    attributes:
+      value: |
+        ---
+        🏁 **When everything above is checked off, you’re cleared for takeoff.**
+        > Remember: the goal of this checklist is to prevent surprises mid-flight.
